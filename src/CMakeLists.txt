@@ -29,7 +29,6 @@ set(
 )
 
 add_library(requests ${requests_sources} ${requests_headers})
-add_library(librequests::requests ALIAS requests)
 
 # Specify directories which the compiler should look for headers
 target_include_directories(
