@@ -54,3 +54,6 @@ cmake --build .
 ```
 cmake --install .
 ```
+
+## Contributing
+Please fork this repository and contribute back using [pull requests](https://github.com/gavrilikhin-d/requests/pulls). Features can be requested using [issues](https://github.com/gavrilikhin-d/requests/issues). All code, comments, and critiques are greatly appreciated.
