@@ -3,9 +3,9 @@
 [![Build](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml)
 [![License](https://img.shields.io/github/license/gavrilikhin-d/requests?label=License)](https://github.com/gavrilikhin-d/requests/blob/master/LICENSE)
 
-C++ Requests is a [Python Requests](https://github.com/psf/requests) alike library for sending HTTP requests. The library is much inspired by the [Cpr](https://github.com/whoshuu/cpr) project, yet uses Boost instead of cURL. Our library supports HTTPs requests and allows you not to worry about certificates.
+C++ Requests is a [Python Requests](https://github.com/psf/requests) alike library for sending HTTP requests. The library is much inspired by the [Cpr](https://github.com/whoshuu/cpr) project, yet uses Boost instead of cURL. Our library supports HTTPS without you worrying about certificates.
 
-Sending `GET` request is nothing more than:
+Sending a `GET` request is nothing more than:
 ```c++
 #include <requests/requests.hpp>
 
@@ -25,7 +25,7 @@ int main()
 
 ## Documentation
 
-Documentaion can be found [here](https://gavrilikhin-d.github.io/requests/). Work in progress.
+Documentation can be found [here](https://gavrilikhin-d.github.io/requests/). Work in progress.
 
 ## Dependencies
 
