@@ -12,13 +12,11 @@ Sending a `GET` request is nothing more than:
 int main()
 {
   Requests::Response r = Requests::get("https://api.github.com/user", Requests::Auth{"user", "pass"});
-  
+
   r.status_code;             // 200
   r.headers["content-type"]; // "application/json; charset=utf8"
-  r.encoding;                // "utf-8"
   r.text;                    // "{\"type\":\"User\"..."
-  r.json();                  // {"disk_usage": 368627, "private_gists": 484, ...}
-  
+
   return 0;
 }
 ```
