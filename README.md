@@ -3,7 +3,7 @@
 [![Build](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml)
 [![License](https://img.shields.io/github/license/gavrilikhin-d/requests?label=License)](https://github.com/gavrilikhin-d/requests/blob/master/LICENSE)
 
-C++ Requests is a [Python Requests](https://github.com/psf/requests) alike library for sending HTTP requests. The library is much inspired by the [Cpr](https://github.com/whoshuu/cpr) project, yet uses Boost instead of cURL. Our library supports HTTPS without you worrying about certificates.
+C++ Requests is a [Python Requests](https://github.com/psf/requests) like library for sending HTTP requests. The library is inspired a lot by the [Cpr](https://github.com/whoshuu/cpr) project, yet uses Boost instead of cURL. We aim for most simple workflow with both HTTP and HTTPS protocols.
 
 Sending a `GET` request is nothing more than:
 ```c++
@@ -23,24 +23,28 @@ int main()
 
 ## Documentation
 
-Documentation can be found [here](https://gavrilikhin-d.github.io/requests/). Work in progress.
+Documentation can be found [here](https://gavrilikhin-d.github.io/requests/). It's work in progress.
 
 ## Dependencies
 
-Requests deliberately uses most modern `C++20` features, hence it requires lastest `gcc-11` compiler.
+Requests deliberately uses most modern `C++20` features, hence it requires lastest versions of compilers.
 
 It also requires:
-- `Boost 1.75` or greater.
+- `Boost`
 - `OpenSSL`
 
-Note: Neither  `gcc-11` nor `Boost 1.75` can be installed through `apt`. You must install them from source.
-
 ## Install
+
+0. Install dependencies
+```
+sudo apt-get install libboost-dev openssl
+```
 
 1. Download sources
 ```
 git clone https://github.com/gavrilikhin-d/requests
 ```
+
 2. Build project
 ```
 mkdir build
@@ -48,6 +52,7 @@ cd build
 cmake ..
 cmake --build .
 ```
+
 3. Install
 ```
 cmake --install .
