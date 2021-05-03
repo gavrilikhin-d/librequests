@@ -1,7 +1,7 @@
 # Requests
-[![Documentation](https://img.shields.io/badge/docs-online-informational?label=Docs&style=flat&link=https://gavrilikhin-d.github.io/requests/)](https://gavrilikhin-d.github.io/requests/)
-[![Build](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/gavrilikhin-d/requests/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/gavrilikhin-d/requests?label=License)](https://github.com/gavrilikhin-d/requests/blob/master/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-online-informational?label=Docs&style=flat&link=https://gavrilikhin-d.github.io/Requests/)](https://gavrilikhin-d.github.io/Requests/)
+[![Build](https://github.com/gavrilikhin-d/Requests/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/gavrilikhin-d/Requests/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/gavrilikhin-d/Requests?label=License)](https://github.com/gavrilikhin-d/Requests/blob/master/LICENSE)
 
 C++ Requests is a [Python Requests](https://github.com/psf/requests) like library for sending HTTP requests. The library is inspired a lot by the [Cpr](https://github.com/whoshuu/cpr) project, yet uses Boost instead of cURL. We aim for most simple workflow with both HTTP and HTTPS protocols.
 
@@ -42,7 +42,7 @@ sudo apt-get install libboost-dev openssl
 
 1. Download sources
 ```
-git clone https://github.com/gavrilikhin-d/requests
+git clone https://github.com/gavrilikhin-d/Requests
 ```
 
 2. Build project
@@ -59,4 +59,4 @@ cmake --install .
 ```
 
 ## Contributing
-Please fork this repository and contribute back using [pull requests](https://github.com/gavrilikhin-d/requests/pulls). Features can be requested using [issues](https://github.com/gavrilikhin-d/requests/issues). All code, comments, and critiques are greatly appreciated.
+Please fork this repository and contribute back using [pull requests](https://github.com/gavrilikhin-d/Requests/pulls). Features can be requested using [issues](https://github.com/gavrilikhin-d/Requests/issues). All code, comments, and critiques are greatly appreciated.
