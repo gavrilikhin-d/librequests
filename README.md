@@ -1,6 +1,5 @@
 # Requests
 [![Documentation](https://img.shields.io/badge/docs-online-informational?label=Docs&style=flat&link=https://gavrilikhin-d.github.io/Requests/)](https://gavrilikhin-d.github.io/Requests/)
-[![Build](https://github.com/gavrilikhin-d/Requests/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/gavrilikhin-d/Requests/actions/workflows/build.yml)
 [![License](https://img.shields.io/github/license/gavrilikhin-d/Requests?label=License)](https://github.com/gavrilikhin-d/Requests/blob/master/LICENSE)
 
 Requests is a ["Python Requests"](https://github.com/psf/requests)-like C++ header-only library for sending HTTP requests. The library is inspired a lot by the [Cpr](https://github.com/whoshuu/cpr) project, yet tries to be even more simple.
